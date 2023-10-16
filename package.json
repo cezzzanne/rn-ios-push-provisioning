@@ -15,6 +15,7 @@
     "red",
     "button"
   ],
+  "types": "types/index.d.ts",
   "author": "cezzanne",
   "license": "MIT",
   "bugs": {
