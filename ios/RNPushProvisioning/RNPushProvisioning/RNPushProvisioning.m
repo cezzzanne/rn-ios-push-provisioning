@@ -25,10 +25,10 @@ RCT_EXPORT_METHOD(checkAvailability:(NSString *)name location:(NSString *)locati
         PKAddPaymentPassViewController *addPaymentVC = [[PKAddPaymentPassViewController alloc] initWithRequestConfiguration:configuration delegate:self];
         [self presentViewController:addPaymentVC animated:YES completion:nil];
 
-        RCTLogInfo("Can add payment pass");
+        RCTLogInfo("@Can add payment pass");
     } else {
         // Your device can add payment passes
-        RCTLogInfo("Cannot add payment pass");
+        RCTLogInfo("@Cannot add payment pass");
     }
 }
 
