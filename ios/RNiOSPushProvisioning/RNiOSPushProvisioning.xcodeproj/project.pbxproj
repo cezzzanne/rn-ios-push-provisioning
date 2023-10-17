@@ -23,6 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		063493D22ADF0ABE0084E73C /* RNiOSPushProvisioning-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RNiOSPushProvisioning-Bridging-Header.h"; sourceTree = "<group>"; };
 		06EEC6162ADE2E34004B1878 /* libRNiOSPushProvisioning.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNiOSPushProvisioning.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		06EEC6192ADE2E34004B1878 /* RNiOSPushProvisioning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNiOSPushProvisioning.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -41,6 +42,7 @@
 		06EEC60D2ADE2E34004B1878 = {
 			isa = PBXGroup;
 			children = (
+				063493D22ADF0ABE0084E73C /* RNiOSPushProvisioning-Bridging-Header.h */,
 				06EEC6182ADE2E34004B1878 /* RNiOSPushProvisioning */,
 				06EEC6172ADE2E34004B1878 /* Products */,
 			);
@@ -252,6 +254,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/$(SWIFT_MODULE_NAME)-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -262,12 +265,15 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				"HEADER_SEARCH_PATHS[arch=*]" = (
-					"$(SRCROOT)/../../../React/**\n$(SRCROOT)/../../../React/**\n$(SRCROOT)/../../../React/**/**",
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../../React/**/**",
 					"$(SRCROOT)/../../react-native/React/**/**",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/$(SWIFT_MODULE_NAME)-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
