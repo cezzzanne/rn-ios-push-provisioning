@@ -1,4 +1,5 @@
-import { requireNativeComponent } from 'react-native';
+import {NativeModules} from 'react-native';
 
-const RNRedButton = requireNativeComponent('RNRedButton', null);
-export default RNRedButton;
+const {RNPushProvisioning} = NativeModules;
+
+export default RNPushProvisioning;

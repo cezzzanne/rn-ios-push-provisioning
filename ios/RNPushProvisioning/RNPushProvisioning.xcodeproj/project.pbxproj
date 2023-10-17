@@ -7,29 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06EEC61A2ADE2E34004B1878 /* RNiOSPushProvisioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EEC6192ADE2E34004B1878 /* RNiOSPushProvisioning.swift */; };
+		063493E12ADF0DEE0084E73C /* RNPushProvisioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 063493E02ADF0DEE0084E73C /* RNPushProvisioning.m */; };
+		063493E22ADF0DEE0084E73C /* RNPushProvisioning.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 063493DF2ADF0DEE0084E73C /* RNPushProvisioning.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		06EEC6142ADE2E34004B1878 /* CopyFiles */ = {
+		063493DA2ADF0DEE0084E73C /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				063493E22ADF0DEE0084E73C /* RNPushProvisioning.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		063493D22ADF0ABE0084E73C /* RNiOSPushProvisioning-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RNiOSPushProvisioning-Bridging-Header.h"; sourceTree = "<group>"; };
-		06EEC6162ADE2E34004B1878 /* libRNiOSPushProvisioning.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNiOSPushProvisioning.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		06EEC6192ADE2E34004B1878 /* RNiOSPushProvisioning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNiOSPushProvisioning.swift; sourceTree = "<group>"; };
+		063493DC2ADF0DEE0084E73C /* libRNPushProvisioning.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNPushProvisioning.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		063493DF2ADF0DEE0084E73C /* RNPushProvisioning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNPushProvisioning.h; sourceTree = "<group>"; };
+		063493E02ADF0DEE0084E73C /* RNPushProvisioning.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNPushProvisioning.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		06EEC6132ADE2E34004B1878 /* Frameworks */ = {
+		063493D92ADF0DEE0084E73C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,67 +41,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		06EEC60D2ADE2E34004B1878 = {
+		063493D32ADF0DEE0084E73C = {
 			isa = PBXGroup;
 			children = (
-				063493D22ADF0ABE0084E73C /* RNiOSPushProvisioning-Bridging-Header.h */,
-				06EEC6182ADE2E34004B1878 /* RNiOSPushProvisioning */,
-				06EEC6172ADE2E34004B1878 /* Products */,
+				063493DE2ADF0DEE0084E73C /* RNPushProvisioning */,
+				063493DD2ADF0DEE0084E73C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		06EEC6172ADE2E34004B1878 /* Products */ = {
+		063493DD2ADF0DEE0084E73C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				06EEC6162ADE2E34004B1878 /* libRNiOSPushProvisioning.a */,
+				063493DC2ADF0DEE0084E73C /* libRNPushProvisioning.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		06EEC6182ADE2E34004B1878 /* RNiOSPushProvisioning */ = {
+		063493DE2ADF0DEE0084E73C /* RNPushProvisioning */ = {
 			isa = PBXGroup;
 			children = (
-				06EEC6192ADE2E34004B1878 /* RNiOSPushProvisioning.swift */,
+				063493DF2ADF0DEE0084E73C /* RNPushProvisioning.h */,
+				063493E02ADF0DEE0084E73C /* RNPushProvisioning.m */,
 			);
-			path = RNiOSPushProvisioning;
+			path = RNPushProvisioning;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		06EEC6152ADE2E34004B1878 /* RNiOSPushProvisioning */ = {
+		063493DB2ADF0DEE0084E73C /* RNPushProvisioning */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 06EEC61D2ADE2E34004B1878 /* Build configuration list for PBXNativeTarget "RNiOSPushProvisioning" */;
+			buildConfigurationList = 063493E52ADF0DEE0084E73C /* Build configuration list for PBXNativeTarget "RNPushProvisioning" */;
 			buildPhases = (
-				06EEC6122ADE2E34004B1878 /* Sources */,
-				06EEC6132ADE2E34004B1878 /* Frameworks */,
-				06EEC6142ADE2E34004B1878 /* CopyFiles */,
+				063493D82ADF0DEE0084E73C /* Sources */,
+				063493D92ADF0DEE0084E73C /* Frameworks */,
+				063493DA2ADF0DEE0084E73C /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = RNiOSPushProvisioning;
-			productName = RNiOSPushProvisioning;
-			productReference = 06EEC6162ADE2E34004B1878 /* libRNiOSPushProvisioning.a */;
+			name = RNPushProvisioning;
+			productName = RNPushProvisioning;
+			productReference = 063493DC2ADF0DEE0084E73C /* libRNPushProvisioning.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		06EEC60E2ADE2E34004B1878 /* Project object */ = {
+		063493D42ADF0DEE0084E73C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					06EEC6152ADE2E34004B1878 = {
+					063493DB2ADF0DEE0084E73C = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = 06EEC6112ADE2E34004B1878 /* Build configuration list for PBXProject "RNiOSPushProvisioning" */;
+			buildConfigurationList = 063493D72ADF0DEE0084E73C /* Build configuration list for PBXProject "RNPushProvisioning" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -107,29 +108,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 06EEC60D2ADE2E34004B1878;
-			productRefGroup = 06EEC6172ADE2E34004B1878 /* Products */;
+			mainGroup = 063493D32ADF0DEE0084E73C;
+			productRefGroup = 063493DD2ADF0DEE0084E73C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				06EEC6152ADE2E34004B1878 /* RNiOSPushProvisioning */,
+				063493DB2ADF0DEE0084E73C /* RNPushProvisioning */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		06EEC6122ADE2E34004B1878 /* Sources */ = {
+		063493D82ADF0DEE0084E73C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06EEC61A2ADE2E34004B1878 /* RNiOSPushProvisioning.swift in Sources */,
+				063493E12ADF0DEE0084E73C /* RNPushProvisioning.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		06EEC61B2ADE2E34004B1878 /* Debug */ = {
+		063493E32ADF0DEE0084E73C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -184,12 +185,10 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		06EEC61C2ADE2E34004B1878 /* Release */ = {
+		063493E42ADF0DEE0084E73C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -237,44 +236,28 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		06EEC61E2ADE2E34004B1878 /* Debug */ = {
+		063493E62ADF0DEE0084E73C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				"HEADER_SEARCH_PATHS[arch=*]" = (
-					"$(SRCROOT)/../../../React/**/**",
-					"$(SRCROOT)/../../react-native/React/**/**",
-				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/$(SWIFT_MODULE_NAME)-Bridging-Header.h";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		06EEC61F2ADE2E34004B1878 /* Release */ = {
+		063493E72ADF0DEE0084E73C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				"HEADER_SEARCH_PATHS[arch=*]" = (
-					"$(SRCROOT)/../../../React/**",
-					"$(SRCROOT)/../../../React/**",
-					"$(SRCROOT)/../../../React/**/**",
-					"$(SRCROOT)/../../react-native/React/**/**",
-				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/$(SWIFT_MODULE_NAME)-Bridging-Header.h";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -282,25 +265,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		06EEC6112ADE2E34004B1878 /* Build configuration list for PBXProject "RNiOSPushProvisioning" */ = {
+		063493D72ADF0DEE0084E73C /* Build configuration list for PBXProject "RNPushProvisioning" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				06EEC61B2ADE2E34004B1878 /* Debug */,
-				06EEC61C2ADE2E34004B1878 /* Release */,
+				063493E32ADF0DEE0084E73C /* Debug */,
+				063493E42ADF0DEE0084E73C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		06EEC61D2ADE2E34004B1878 /* Build configuration list for PBXNativeTarget "RNiOSPushProvisioning" */ = {
+		063493E52ADF0DEE0084E73C /* Build configuration list for PBXNativeTarget "RNPushProvisioning" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				06EEC61E2ADE2E34004B1878 /* Debug */,
-				06EEC61F2ADE2E34004B1878 /* Release */,
+				063493E62ADF0DEE0084E73C /* Debug */,
+				063493E72ADF0DEE0084E73C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 06EEC60E2ADE2E34004B1878 /* Project object */;
+	rootObject = 063493D42ADF0DEE0084E73C /* Project object */;
 }
