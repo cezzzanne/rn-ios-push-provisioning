@@ -24,6 +24,6 @@
   "homepage": "https://github.com/cezzzanne/rn-ios-push-provisioning#readme",
   "peerDependencies": {
     "react": ">=16.8.0",
-    "react-native": ">=0.60.0"
+    "react-native": "0.67.5"
   }
 }
