@@ -27,7 +27,7 @@
 /* Begin PBXFileReference section */
 		063493DC2ADF0DEE0084E73C /* libRNPushProvisioning.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNPushProvisioning.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		063493DF2ADF0DEE0084E73C /* RNPushProvisioning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNPushProvisioning.h; sourceTree = "<group>"; };
-		063493E02ADF0DEE0084E73C /* RNPushProvisioning.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNPushProvisioning.m; sourceTree = "<group>"; };
+		063493E02ADF0DEE0084E73C /* RNPushProvisioning.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; path = RNPushProvisioning.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
