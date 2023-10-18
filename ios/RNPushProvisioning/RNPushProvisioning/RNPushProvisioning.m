@@ -13,7 +13,7 @@
 
 RCT_EXPORT_MODULE();
 
-RCT_EXPORT_METHOD(checkAvailability:(NSString *)localizedDescription primaryAccountSuffix:(NSString *)suffix cardholderName:(NSString *)name paymentNetwork:(NSString *)network callback:(RCTResponseSenderBlock)callback) {
+RCT_EXPORT_METHOD(initiateAddToAppleWallet:(NSString *)localizedDescription primaryAccountSuffix:(NSString *)suffix cardholderName:(NSString *)name paymentNetwork:(NSString *)network callback:(RCTResponseSenderBlock)callback) {
     if ([PKAddPaymentPassViewController canAddPaymentPass]) {
         // We can add a payment pass on device
         PKAddPaymentPassRequestConfiguration *configuration = [[PKAddPaymentPassRequestConfiguration alloc] initWithEncryptionScheme:PKEncryptionSchemeECC_V2];
