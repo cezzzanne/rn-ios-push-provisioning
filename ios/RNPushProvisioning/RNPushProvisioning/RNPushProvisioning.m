@@ -20,9 +20,9 @@ RCT_EXPORT_METHOD(initiateAddToAppleWallet:(NSString *)localizedDescription prim
         
         // These are purely UI values we show to the user
         configuration.localizedDescription = localizedDescription;
-        configuration.primaryAccountSuffix = primaryAccountSuffix;
-        configuration.cardholderName = cardholderName;
-        configuration.paymentNetwork = paymentNetwork;
+        configuration.primaryAccountSuffix = suffix;
+        configuration.cardholderName = name;
+        configuration.paymentNetwork = network;
         PKAddPaymentPassViewController *addPaymentVC = [[PKAddPaymentPassViewController alloc] initWithRequestConfiguration:configuration delegate:self];
         UIViewController *rootViewController = [UIApplication sharedApplication].delegate.window.rootViewController;
 
