@@ -1,7 +1,5 @@
 declare module 'rn-ios-push-provisioning' {
     
-
-
   interface RNPushProvisioningInterface {
     initiateAddToAppleWallet: (
       localizedDescription: string,
@@ -25,5 +23,4 @@ declare module 'rn-ios-push-provisioning' {
     ephemeralPublicKey: string;
   }
 
-  export default RNPushProvisioning as RNPushProvisioningInterface
 }
