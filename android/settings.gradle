@@ -1,4 +1,0 @@
-rootProject.name = "RNPushProvisioning"
-include ':app'
-include ':react-native'
-project(':react-native').projectDir = new File(rootProject.projectDir, '../node_modules/react-native/android')
